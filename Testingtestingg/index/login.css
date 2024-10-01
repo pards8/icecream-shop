@@ -1,0 +1,128 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #D6C8F5; /* Light purple background */
+}
+
+.login-section {
+    height: 100vh;
+    background-image: url('/FIGMA/login\ page\ background.jpg'); /* Add your ice cream pattern background here */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    background-color: #f99bbf;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #f99bbf;
+}
+
+.btn-outline-primary {
+    border-radius: 15px;
+    border-color: #B699F9;
+    color: #B699F9;
+}
+
+.btn-outline-primary:hover {
+    background-color: #B699F9;
+    color: white;
+}
+
+.btn-primary, .btn-secondary {
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: #B699F9;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #F99BBF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #A282EE;
+}
+
+.btn-secondary:hover {
+    background-color: #e57bad;
+}
+
+.text-center a {
+    color: #B699F9;
+}
+
+
+
+/* Styling for the Register button */
+.btn-link {
+    color: #EAEAEA; /* Custom color for the link (e.g., pink) */
+    text-decoration: none; /* Removes underline */
+    font-size: 1.1rem; /* Adjust the font size */
+    font-weight: 500; /* Adjust font weight */
+    padding: 0; /* Removes padding for a clean button look */
+    background-color: #B699F9 ; /* Make sure the button is transparent */
+    border: none; /* Removes any border */
+    cursor: pointer; /* Shows pointer when hovering */
+    border-radius: 15px;
+}
+
+
+
+.btn-link:focus, 
+.btn-link:active {
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes any shadow */
+    text-decoration: none; /* Keeps underline when active */
+}btn-link {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #EAEAEA; 
+    text-decoration: none; 
+    font-size: 1.1rem; 
+    font-weight: 500; 
+    background-color: #B699F9;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    height: 40px; 
+    width: 100px; 
+}
+.btn-link:hover {
+    background-color: #B699F9;
+    color: white;
+    opacity: 0.8;
+}
+
+.btn-link:focus, 
+.btn-link:active {
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Removes any shadow */
+   
+}
+
